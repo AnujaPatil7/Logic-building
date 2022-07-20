@@ -1,0 +1,161 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Harshvardhantambe 
+Harshvardhantambe
+/
+Beginner-Logic-Building
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+Beginner-Logic-Building/Arithmetic Operation
+@Harshvardhantambe
+Harshvardhantambe Create Arithmetic Operation
+Latest commit 2bb467f 18 hours ago
+ History
+ 1 contributor
+133 lines (98 sloc)  1.92 KB
+
+#addition of two numbers
+package Addition;
+
+public class addition {
+
+	public static void main(String[] args) {
+		int a=5;
+		int b=6;
+		
+		System.out.println("Addition of two numbers =" +(a+b));
+
+	}
+}
+
+#multiplication
+package Multiplication;
+
+public class multiplication {
+	public static void main(String[] args)
+	{
+		int a;
+		int b;
+		
+		System.out.println("multiplication=" +(7*8));
+	}
+
+}
+
+#mod %
+package mod;
+
+public class mod {
+	public static void main(String[] args)
+	{
+		int a;
+		int b;
+		
+		System.out.println("mod of two numbers are = " +(4%2));
+	}
+
+}
+
+#calculator
+package mod;
+
+public class mod {
+	public static void main(String[] args)
+	{
+		int a=4;
+		int b=2;
+		
+		System.out.println("Addition of two numbers are = " +(4+2));
+		System.out.println("Subtraction of two numbers are = " +(4-2));
+		System.out.println("Multiplication of two numbers are = " +(4*2));
+		System.out.println("Division of two numbers are = " +(4/2));
+	}
+
+}
+
+#addition by taking input
+
+package input;
+import java.util.Scanner;
+
+class input {
+		public static void main(String[] args)
+		{
+			Scanner sc= new Scanner(System.in);
+			
+			System.out.println("Take two numbers");
+			int a=sc.nextInt();
+			int b=sc.nextInt();
+			
+			System.out.println("Addition of two numbers are = " +(a+b));
+			
+		}
+
+	}
+
+#looping concept
+package loopsconcept;
+
+//for
+public class looping {
+	public static void main(String[] args)
+	{
+		int a;
+		for(a=1;a<=5;a++)
+		{
+			System.out.println(a);
+		}
+	}
+}
+
+//multiplication table 
+package multiplicationtable;
+
+import java.util.Scanner;
+
+public class MT {
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(a*i);
+		}
+			
+		
+	}
+
+}
+
+//Pattern
+package pattern;
+
+public class pattern 
+{
+	public static void main(String[] args)
+	{
+		for(int i=0; i<6; i++)
+		{
+			for(int a=6; a>i; a--)
+			{
+				System.out.print("*");
+			}
+		
+		System.out.println();
+		}
+	}
+}
