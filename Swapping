@@ -1,0 +1,22 @@
+package swapnumber;
+
+import java.util.Scanner;
+
+public class swapnumber {
+	public static void main(String[] args)
+	{
+		Scanner sc= new Scanner(System.in);
+		int a, b, c;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		
+		System.out.println("two numbers are " +"\n" +a+"\n"+b);
+		
+		c=a;
+		a=b;
+		b=c;
+		
+		System.out.println("Swapped values are=\n" +a+"\n"+b); 
+	}
+
+}
