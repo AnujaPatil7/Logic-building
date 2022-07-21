@@ -1,0 +1,32 @@
+package SUMofdigit;
+
+import java.util.*;
+
+public class sum {
+		Long a;
+		public static int sum1(long a)
+		{   
+			Scanner sc= new Scanner(System.in);
+			System.out.println("take a number");
+			
+			a=sc.nextLong();
+			//System.out.println("The sum of the digits is: " + sumDigits(a));
+			
+			int summ = 0;
+			while (a != 0) 
+			{
+            summ += a % 10;
+            a /= 10;
+			}
+		System.out.println(summ);
+        return summ;
+        }
+		public static void main(String[] args)
+		{
+			sum1(25);
+		}
+       /*System.out.println(sum);*/
+        
+	}
+	
+
