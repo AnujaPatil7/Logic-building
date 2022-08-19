@@ -1,0 +1,60 @@
+#input of array
+
+import java.util.*;
+public class array{
+	
+	public static void main(String args[])
+	{
+	
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter sie of aarray");
+		int n=s.nextInt();
+		
+		int[] a=new int[n];
+		
+		for(int i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		
+		for(int i=0;i<n;i++) {
+			
+			System.out.println("array elements are= " +a[i]);
+		}
+  }
+}
+
+#search element in array
+
+import java.util.*;
+public class array {
+	
+	public static void main(String args[])
+	{
+	
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter sie of aarray");
+		int n=s.nextInt();
+		
+		int[] a=new int[n];
+		
+		for(int i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		
+		for(int i=0;i<n;i++) {
+			
+			System.out.println("array elements are= " +a[i]);
+		}
+		int search=s.nextInt();
+		for(int i=0;i<n;i++) {
+			
+			if(a[i]==search) {
+				System.out.println("found"+a[i]);
+				
+				
+			}
+		}
+	}
+}
