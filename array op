@@ -58,3 +58,55 @@ public class array {
 		}
 	}
 }
+
+#whether elements are in ascending or decening order
+
+import java.util.*;
+public class add 
+{
+	
+	
+
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		int size=s.nextInt();
+		
+		int numbers[]=new int[size];
+	
+	
+	      for(int i=0; i<size; i++) {
+	          numbers[i] = s.nextInt();
+	      }
+	  	
+	      boolean isAscending=true;
+	      
+	      System.out.println("anu");
+	      for(int i=0;i<size;i++) {
+	    	  System.out.println(numbers[i]);
+	      }
+	      
+	      for(int i=0;i<size;i++)
+	      {
+	      
+	    	  if(numbers[i]>numbers[i+1]) {
+	    		  
+	    		  isAscending=false;
+	    		  
+	    	  }
+	    	  break;
+	    	  
+	      }
+	if(isAscending)
+	  {
+		  System.out.println("ascending order");
+	  }
+	  else
+	  {
+		  System.out.println("descending order");
+	  }
+	}
+}
+   /*System.out.println(sum);*/
+    
+
